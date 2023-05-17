@@ -18,6 +18,7 @@ public class HelloController {
     @RequestMapping(value = {"/", "/hello"})
     public String showHello2(){
         int a;
+        int b;
         return "helloworld";
     }
     @GetMapping("/nhapten")
